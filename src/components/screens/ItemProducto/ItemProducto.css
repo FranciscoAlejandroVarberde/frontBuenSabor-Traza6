@@ -1,0 +1,54 @@
+.productos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.img-container {
+  height: 300px; /* Establece la altura de la imagen */
+  overflow: hidden;
+  display: flex; /* Usa flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+
+.no-image-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-principal{
+  background-color: #26486e;
+  color: #ffff;
+}
+.btn-principal:hover {
+  background-color:  #5192d8; /* Color más oscuro para el hover */
+  color: #ffff;
+}
+.card-title {
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card-title:hover {
+  white-space: normal;
+}
