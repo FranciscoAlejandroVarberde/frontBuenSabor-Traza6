@@ -35,7 +35,6 @@ export const Inicio = () => {
     <Container fluid className="inicio-container">
       <Container className="contenido">
         <div className="texto">
-          <h1 className='texto-principal'>El Buen Sabor</h1>
         </div>
         <Row className="tarjetas-container m-3">
           <Col xs={12} md={6} className="mb-4">

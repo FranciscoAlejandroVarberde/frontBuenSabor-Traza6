@@ -1,15 +1,17 @@
 /* Fondo de imagen */
 .inicio-container {
-  background-image: url('/images/ui/fast-food-seamless-background-template-vector.jpg'); /* Ruta a tu imagen de fondo */
-  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
-  background-position: center; /* Centra la imagen dentro del contenedor */
-  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+ background-image: url('/images/ui/fast-food-seamless-background-template-vector.jpg'); /* Ruta a tu imagen de fondo */
+ background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+ background-position: center; /* Centra la imagen dentro del contenedor */
+ background-repeat: no-repeat; /* Evita la repetición de la imagen */
   padding: 3rem 0; /* Añade relleno al contenedor para que el contenido no esté pegado al borde */
 }
-
+body{
+  width: 100%;
+}
 /* Estilos para el contenido */
 .contenido {
-  background-color: rgba(255, 255, 255, 0.692); /* Fondo semitransparente para el contenido */
+  background-color: rgba(0, 0, 0, 0.692); /* Fondo semitransparente para el contenido */
   padding: 2rem; /* Relleno interno para el contenido */
   border-radius: 10px; /* Borde redondeado para el contenedor */
 }
@@ -18,19 +20,23 @@
 .texto-principal {
   font-family: 'Arial', sans-serif; /* Cambiar la fuente a Arial o la que desees */
   font-size: 3rem; /* Tamaño del título */
-  color: #333; /* Color del texto */
+  color: #ffffff; /* Color del texto */
   text-align: center; /* Alineación centrada */
   margin-top: 1rem; /* Márgen superior ajustado */
   margin-bottom: 0; /* Eliminar margen inferior para que esté más cerca del siguiente elemento */
 }
 
 .texto {
-  font-family: 'Roboto', sans-serif; /* Cambiar la fuente a Roboto o la que desees */
-  font-size: 1.2rem; /* Tamaño del texto */
-  color: #0f2341; /* Color del texto */
-  text-align: center; /* Alineación centrada */
-  margin: 1rem 0;
+  background-image: url('/images/ui/logo.jpg'); /* Asegúrate de que la ruta sea correcta */
+  background-size: contain; /* Ajusta el tamaño de la imagen para que se ajuste completamente */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+  height: 300px; /* Ajusta la altura según sea necesario */
+  width: 300px; /* Ajusta el ancho según sea necesario */
+  margin: 1rem auto; /* Centra el logo horizontalmente */
+  border-radius: 10px;
 }
+
 
 .tarjeta {
   background-color: #ffffff;
@@ -61,14 +67,14 @@
 }
 
 .contenido-tarjeta p {
-  color: #6c757d; /* Color del texto secundario */
+  color: #0088ff; /* Color del texto secundario */
   font-size: 16px;
   margin-bottom: 15px;
 }
 
 .Boton {
   display: inline-block;
-  background-color: #26486e !important; /* Color de fondo inicial del botón */
+  background-color: #d13a3a !important; /* Color de fondo inicial del botón */
   color: #ffffff !important; /* Color del texto inicial del botón */
   text-decoration: none !important;
   padding: 10px 20px !important;
@@ -78,8 +84,8 @@
 }
 
 .Boton:hover {
-  background-color: #5192d8 !important; /* Cambio de color de fondo al pasar el mouse */
-  color: #ffffff !important; /* Cambio de color del texto al pasar el mouse */
+  background-color: #d85151 !important; /* Cambio de color de fondo al pasar el mouse */
+  color: #000000 !important; /* Cambio de color del texto al pasar el mouse */
 }
 .card-title {
   cursor: pointer;

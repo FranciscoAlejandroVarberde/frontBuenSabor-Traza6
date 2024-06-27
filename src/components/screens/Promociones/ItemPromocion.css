@@ -6,7 +6,7 @@
 
 .tarjeta {
   width: 100%;
-  border: 1px solid #ccc;
+  border: 1px solid #f10707;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -35,12 +35,12 @@
 }
 
 .btn-principal{
-  background-color: #26486e;
-  color: #ffff;
+  background-color: #ff0000;
+  color: #ffffff;
 }
 .btn-principal:hover {
-  background-color:  #5192d8; /* Color más oscuro para el hover */
-  color: #ffff;
+  background-color:  #ff0000; /* Color más oscuro para el hover */
+  color: #000000;
 }
 .card-title {
   cursor: pointer;

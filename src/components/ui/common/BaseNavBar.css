@@ -1,5 +1,5 @@
 .navbar-custom {
-    background-color: #26486e;
+    background-color: #ff0000;
 }
 
 /* Cambiar tipo de letra */
@@ -28,4 +28,9 @@
 .custom-toggler:focus-visible {
   outline: none;
   box-shadow: none;
+}
+.logo-image {
+    height: 40px; /* Ajusta la altura según sea necesario */
+    width: auto; /* Mantén la proporción de la imagen */
+    display: block; /* Asegúrate de que la imagen se muestre como un bloque */
 }

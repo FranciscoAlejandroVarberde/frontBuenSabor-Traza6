@@ -48,8 +48,8 @@
     height: 45px; /* Altura del botón */
     min-width: 180px; /* Ancho mínimo del botón */
     max-width: 300px; /* Ancho máximo del botón */
-    background-color: #26486e !important;
-    border-color: #26486e !important;
+    background-color: #ff0000 !important;
+    border-color: #000000 !important;
     color: white !important;
     display: flex;
     align-items: center;
@@ -58,9 +58,9 @@
 }
 
 .ordenar-btn:hover {
-    background-color: #5192d8 !important;
-    border-color: #132f4f !important;
-    color: white !important;
+    background-color: rgb(216, 81, 81) !important;
+    border-color: #000000 !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 @media (max-width: 600px) {
@@ -78,14 +78,14 @@
 }
 /* Estilo para elementos activos */
 .principal-active .page-link {
-    background-color: #26486e; /* Color de fondo para elementos activos */
+    background-color: #ff0000; /* Color de fondo para elementos activos */
     color: #ffffff; /* Color de texto para elementos activos */
   }
   
   /* Estilo para elementos inactivos */
   .principal-inactive .page-link {
     background-color: #ffffff; /* Color de fondo para elementos inactivos */
-    color: #26486e; /* Color de texto para elementos inactivos */
+    color: #ff0000; /* Color de texto para elementos inactivos */
   }
   
   

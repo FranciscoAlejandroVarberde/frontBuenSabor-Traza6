@@ -6,8 +6,8 @@ export const BaseNavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light navbar-custom">
       <div className="container-fluid ms-3">
-        <a className="navbar-brand text-white" href="/inicio">
-          Buen Sabor
+        <a className="navbar-brand" href="/inicio">
+          <img src="/images/ui/logo.jpg" alt="Buen Sabor" className="logo-image" />
         </a>
         <button
           className="navbar-toggler custom-toggler"
